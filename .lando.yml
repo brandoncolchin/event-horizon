@@ -1,0 +1,8 @@
+name: event-horizon
+recipe: pantheon
+config:
+  framework: drupal8
+  site: event-horizon
+  id: e96faaeb-ebd6-467b-9131-f92ef90f46e2
+  php: '7.2'
+  xdebug: true
