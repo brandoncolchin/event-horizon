@@ -1,0 +1,29 @@
+uuid: c5bb68d8-86b0-4ecd-82b0-0aa7a214663a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_photo_category
+    - node.type.jmona_photo
+    - taxonomy.vocabulary.photo_categories
+id: node.jmona_photo.field_photo_category
+field_name: field_photo_category
+entity_type: node
+bundle: jmona_photo
+label: 'Photo Category'
+description: 'Category in which the photo will be displayed.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      photo_categories: photo_categories
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

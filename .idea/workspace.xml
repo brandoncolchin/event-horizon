@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0530b4b6-c844-4bb8-aab2-6e73e09b64d8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sites/default/config/core.extension.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sites/default/config/core.extension.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/default/config/views.view.entity_pager_example.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/config/core.menu.static_menu_link_overrides.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sites/default/config/core.menu.static_menu_link_overrides.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/default/config/system.site.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sites/default/config/system.site.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -220,22 +220,6 @@
             <path>
               <item name="event-horizon-pantheon-recipe" type="b2602c69:ProjectViewProjectNode" />
               <item name="event-horizon-pantheon-recipe" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="event-horizon-pantheon-recipe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="event-horizon-pantheon-recipe" type="462c0819:PsiDirectoryNode" />
-              <item name="sites" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="event-horizon-pantheon-recipe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="event-horizon-pantheon-recipe" type="462c0819:PsiDirectoryNode" />
-              <item name="sites" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="event-horizon-pantheon-recipe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="event-horizon-pantheon-recipe" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -334,11 +318,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3041000" />
+    <option name="totallyTimeSpent" value="3461000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24786325" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

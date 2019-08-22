@@ -1,0 +1,38 @@
+uuid: 69c230c2-3786-43ed-9e26-6ea3a0dad116
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_category_photo
+    - taxonomy.vocabulary.photo_categories
+  module:
+    - image
+id: taxonomy_term.photo_categories.field_category_photo
+field_name: field_category_photo
+entity_type: taxonomy_term
+bundle: photo_categories
+label: 'Category Photo'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_extensions: 'png gif jpg jpeg'
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  max_resolution: ''
+  min_resolution: ''
+  default_image:
+    uuid: null
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  max_filesize: ''
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image
