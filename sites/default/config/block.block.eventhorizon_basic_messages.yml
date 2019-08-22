@@ -1,0 +1,22 @@
+uuid: ccc67170-85ef-4c89-93aa-3bcb7b89f14b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - eventhorizon_basic
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: eventhorizon_basic_messages
+theme: eventhorizon_basic
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }
