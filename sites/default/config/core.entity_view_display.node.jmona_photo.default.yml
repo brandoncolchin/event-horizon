@@ -1,0 +1,48 @@
+uuid: 9a0b5067-1667-4bb4-9655-7330d6a41397
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.jmona_photo.body
+    - field.field.node.jmona_photo.field_image
+    - field.field.node.jmona_photo.field_photo_category
+    - node.type.jmona_photo
+  module:
+    - image
+    - text
+    - user
+id: node.jmona_photo.default
+targetEntityType: node
+bundle: jmona_photo
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_photo_category:
+    weight: 103
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

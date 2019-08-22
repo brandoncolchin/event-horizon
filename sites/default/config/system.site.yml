@@ -3,9 +3,9 @@ name: 'Event Horizon'
 mail: noreply@dev-event-horizon.pantheonsite.io
 slogan: ''
 page:
-  403: ''
-  404: ''
-  front: /node
+  403: /user
+  404: /homepage
+  front: /homepage
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en

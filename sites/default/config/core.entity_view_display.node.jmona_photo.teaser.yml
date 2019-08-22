@@ -1,0 +1,30 @@
+uuid: e1c59e92-5e6a-4871-8097-916bcd2500f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.jmona_photo.body
+    - node.type.jmona_photo
+  module:
+    - text
+    - user
+id: node.jmona_photo.teaser
+targetEntityType: node
+bundle: jmona_photo
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

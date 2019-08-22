@@ -1,0 +1,17 @@
+uuid: 23a98fdf-21ac-465f-a4cc-cd3c699b8585
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'JMona Photo'
+type: jmona_photo
+description: 'Images that are shown in the gallery and related to a category.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

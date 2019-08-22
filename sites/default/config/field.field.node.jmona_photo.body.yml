@@ -1,0 +1,22 @@
+uuid: c8659542-433f-4b99-89db-25d94f331358
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.jmona_photo
+  module:
+    - text
+id: node.jmona_photo.body
+field_name: body
+entity_type: node
+bundle: jmona_photo
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

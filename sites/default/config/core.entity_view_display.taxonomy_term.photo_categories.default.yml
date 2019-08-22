@@ -1,0 +1,32 @@
+uuid: e40cad7a-9985-49d5-a25c-548bdcf4da2e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.photo_categories.field_category_photo
+    - taxonomy.vocabulary.photo_categories
+  module:
+    - image
+    - text
+id: taxonomy_term.photo_categories.default
+targetEntityType: taxonomy_term
+bundle: photo_categories
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_category_photo:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }
