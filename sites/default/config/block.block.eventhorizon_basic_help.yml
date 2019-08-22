@@ -1,0 +1,22 @@
+uuid: 1fd8cda9-effa-4c09-8089-68a4d1e0ca99
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - eventhorizon_basic
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: eventhorizon_basic_help
+theme: eventhorizon_basic
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
