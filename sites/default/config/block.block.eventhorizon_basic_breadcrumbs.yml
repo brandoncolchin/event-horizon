@@ -1,6 +1,6 @@
 uuid: 1001d545-ce69-4a21-9010-4885900cec02
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -11,7 +11,7 @@ _core:
 id: eventhorizon_basic_breadcrumbs
 theme: eventhorizon_basic
 region: header
-weight: 0
+weight: -3
 provider: null
 plugin: system_breadcrumb_block
 settings:

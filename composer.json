@@ -14,7 +14,8 @@
         "drupal/paragraphs": "^1.8",
         "drupal/backup_migrate": "4.0.0",
         "drupal/entity_pager": "^1.0@beta",
-        "drupal/module_filter": "^3.1"
+        "drupal/module_filter": "^3.1",
+        "drupal/page_manager": "^4.0@beta"
     },
     "replace": {
         "drupal/core": "^8.7"
