@@ -12,7 +12,9 @@
         "drupal/panelizer": "4.1",
         "drupal/panels": "^4.4",
         "drupal/paragraphs": "^1.8",
-        "drupal/backup_migrate": "4.0.0"
+        "drupal/backup_migrate": "4.0.0",
+        "drupal/entity_pager": "^1.0@beta",
+        "drupal/module_filter": "^3.1"
     },
     "replace": {
         "drupal/core": "^8.7"
